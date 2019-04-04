@@ -35,10 +35,10 @@ cache:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  # small: /images/favicon-16x16-next.png
+  # medium: /images/favicon-32x32-next.png
+  # apple_touch_icon: /images/apple-touch-icon-next.png
+  # safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -47,40 +47,40 @@ favicon:
 # Set rss to specific value if you have burned your feed already.
 rss:
 
-footer:
-  # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+# footer:
+#   # Specify the date when the site was setup. If not defined, current year will be used.
+#   #since: 2015
 
-  # Icon between year and copyright info.
-  icon:
-    # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons/
-    # `heart` is recommended with animation in red (#ff0000).
-    name: user
-    # If you want to animate the icon, set it to true.
-    animated: false
-    # Change the color of icon, using Hex Code.
-    color: "#808080"
+#   # Icon between year and copyright info.
+#   icon:
+#     # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons/
+#     # `heart` is recommended with animation in red (#ff0000).
+#     name: user
+#     # If you want to animate the icon, set it to true.
+#     animated: false
+#     # Change the color of icon, using Hex Code.
+#     color: "#808080"
 
-  # If not defined, `author` from Hexo main config will be used.
-  copyright:
+#   # If not defined, `author` from Hexo main config will be used.
+#   copyright:
 
-  powered:
-    # Hexo link (Powered by Hexo).
-    enable: true
-    # Version info of Hexo after Hexo link (vX.X.X).
-    version: true
+#   powered:
+#     # Hexo link (Powered by Hexo).
+#     enable: true
+#     # Version info of Hexo after Hexo link (vX.X.X).
+#     version: true
 
-  theme:
-    # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
-    # Version info of NexT after scheme info (vX.X.X).
-    version: true
+#   theme:
+#     # Theme & scheme info link (Theme - NexT.scheme).
+#     enable: true
+#     # Version info of NexT after scheme info (vX.X.X).
+#     version: true
 
-  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
-  # http://www.miitbeian.gov.cn
-  beian:
-    enable: false
-    icp:
+#   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+#   # http://www.miitbeian.gov.cn
+#   beian:
+#     enable: false
+#     icp:
 
   # Any custom text can be defined here.
   #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
@@ -100,7 +100,7 @@ creative_commons:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: false
-  permalink: https://github.com/yourname
+  permalink: https://github.com/cf65happy
   title: Follow me on GitHub
 
 
@@ -143,7 +143,7 @@ exturl: false
 #baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -168,7 +168,7 @@ menu:
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
-  icons: true
+  icons: false
   badges: false
 
 
@@ -177,10 +177,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -197,7 +197,7 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/cf65happy || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
@@ -250,7 +250,7 @@ toc:
 sidebar:
   # Sidebar Position, available values: left | right (only for Pisces | Gemini).
   position: left
-  #position: right
+  # position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
